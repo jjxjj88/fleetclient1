@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">达升车队</string>
+    <string name="app_soft_update">软件更新</string>
+    <string name="app_have_new_version">有新的版本</string>
+    <string name="app_update">立刻更新</string>
+    <string name="app_not_update">暂时不更新</string>
+    <string name="lab_username">用户名</string>
+    <string name="lab_password">密 码</string>
+    <string name="lab_login">登 录</string>
+    <string name="lab_logout">退出登录</string>
+    <string name="lab_prompt">提 示</string>
+    
+    <string name="lab_user_mobile_no">手机号</string>
+    <string name="lab_user_fleet_name">所属车队</string>
+
+    <string name="lab_booking_no">订舱号</string>
+    <string name="lab_load_time">装箱时间:</string>
+    <string name="lab_ctype">箱 型:</string>
+    <string name="lab_yard_name">提箱堆场:</string>
+    <string name="lab_dock_name">进港码头:</string>
+    <string name="lab_factory_info">工厂信息</string>
+    <string name="lab_container_info">箱子信息</string>
+    <string name="lab_dock_info">港口信息</string>
+    <string name="lab_factory_name">名 称:</string>
+    <string name="lab_factory_address">地 址:</string>
+    <string name="lab_factory_contact">联系人:</string>
+    <string name="lab_factory_mobileno">手 机:</string>
+    <string name="lab_factory_phone">电 话:</string>
+    <string name="lab_remark">备 注</string>
+
+    <string name="lab_suitcase">提 箱</string>
+    <string name="lab_into_factory">进 厂</string>
+    <string name="lab_leave_factory">出 厂</string>
+    <string name="lab_into_port">进 港</string>
+
+    <string name="lab_suitcase_ed">已提箱</string>
+    <string name="lab_into_factory_ed">已进厂</string>
+    <string name="lab_leave_factory_ed">已出厂</string>
+    <string name="lab_into_port_ed">已进港</string>
+
+    <string name="lab_pls_input_container">请输入箱子信息</string>
+    <string name="lab_pls_input_estimate">请输入预计到厂时间</string>
+    <string name="lab_estimate_to_factory">预计到厂时间:</string>
+    <string name="lab_container_type">箱 型</string>
+    <string name="lab_container_no">箱 号:</string>
+    <string name="lab_seal_no">铅封号:</string>
+    <string name="lab_tare">皮 重:</string>
+
+
+    <string name="lab_confirm">确 认</string>
+    <string name="lab_cancel">取 消</string>
+
+    <string name="nav_task">当前任务</string>
+    <string name="nav_tast_history">历史任务</string>
+    <string name="nav_user_info">我的</string>
+
+    <string name="mes_timeout_error">超时，请检查你的网络</string>
+
+    <string name="mes_auth_error">用户名或者密码错误</string>
+    <string name="mes_load_error">加载数据出错</string>
+    <string name="mes_save_error">保存数据出错</string>
+    <string name="mes_option_error">操作失败</string>
+    <string name="mes_no_data">没有数据</string>
+    <string name="mes_no_more">没有更多的数据了</string>
+
+    <string name="mes_reback">请确认返回到上一步吗?</string>
+    <string name="mes_container_no">请输入箱号</string>
+    <string name="mes_seal_no">请输入铅封号</string>
+    <string name="mes_tare">请输入皮重(KG)</string>
+</resources>

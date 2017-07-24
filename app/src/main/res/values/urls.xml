@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test_base_uri">http://192.168.1.2:8099/hw_fleet</string>
+    <string name="local_base_uri">http://10.0.0.10:8080/hw_fleet</string>
+    <string name="base_uri">http://bu.headwin.cn/hw_fleet</string>
+    <string name="check_version_uri">/api/system/version/checkVersion</string>
+    <string name="get_apk_uri">/api/system/version/getLatestVersion</string>
+    <string name="login_uri">/login</string>
+    <string name="auth_uri">/api/authenticated</string>
+    <string name="load_task_uri">/api/logistical/after/getLogisticalInfo</string>
+    <string name="load_tasks_uri">/api/logistical/after/list</string>
+    <string name="load_tasks_history_uri">/api/logistical/finished/list</string>
+    <string name="load_yards_uri">/api/simple/simpleData/list</string>
+    <string name="update_logistical_status_uri">/api/logistical/after/updateLogisticalStatus</string>
+    <string name="update_into_factory_uri">/api/logistical/after/submitFactoryTime</string>
+    <string name="update_container_info_uri">/api/logistical/after/submitBS</string>
+    <string name="reback_uri">/api/logistical/after/returnOne</string>
+</resources>

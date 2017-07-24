@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10sp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lab_pls_input_estimate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <Spinner
+                    android:id="@+id/spinner_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="5"
+                    android:background="?attr/colorControlHighlight"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_hours"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="5"
+                    android:background="?attr/colorControlHighlight"
+                    android:spinnerMode="dialog" />
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lab_pls_input_container"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/edit_container_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:inputType="text"
+                    android:hint="@string/mes_container_no"
+                    />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/edit_seal_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:inputType="text"
+                    android:hint="@string/mes_seal_no"
+                    />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/edit_tare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/mes_tare"
+                    />
+            </TableRow>
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner_yard"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="?attr/colorControlHighlight"
+                    android:dropDownWidth="match_parent"
+                    android:spinnerMode="dialog" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/lab_confirm"/>
+        <Button
+            android:id="@+id/btn_cancal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lab_cancel"/>
+    </TableRow>
+</TableLayout>
